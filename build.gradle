@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+
+test {
+    useJUnitPlatform()
+}
+
+subprojects {
+    // allprojects, subprojects 에는 plugins 를 쓸 수 없어 apply plugin을 사용해야한다.
+    apply plugin : 'java'
+    group 'org.example'
+    version '1.0-SNAPSHOT'
+
+    sourceCompatibility = '1.8'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        testImplementation('org.junit.jupiter:junit-jupiter-api:5.6.0')
+        // testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    }
+}
+
+// 프로젝트별 디펜덴시 설정
+/*
+project('thisIsaCodingTest') {
+    dependencies {
+        implementation project('everyCodingTest')
+    }
+}*/
