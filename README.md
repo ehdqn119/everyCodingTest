@@ -2,11 +2,17 @@
 
 코딩테스트를 대비한 공부 저장소입니다. 
 
+```
 commit message Template : https://beomseok95.tistory.com/328
+```
 
+```
 commit message Temaplte 참고 Github : https://github.com/angular/angular 
+```
 
+```
 Intellij 에서 Gradle 로 멀티프로젝트 구현 참고 : https://willbesoon.tistory.com/96
+```
 
 ## 아래는 READ.md 샘플입니다.
 
