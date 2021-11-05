@@ -5,6 +5,10 @@
 교재와 강의에 따라서 Gradle 멀티프로젝트로 프로젝트 환경을 구성했습니다.
 
 ```
+Notion : https://www.notion.so/3320cc27959b4cff886731addf7c9a83
+```
+
+```
 commit message Template : https://beomseok95.tistory.com/328
 ```
 
@@ -15,6 +19,8 @@ commit message Temaplte 참고 Github : https://github.com/angular/angular
 ```
 Intellij 에서 Gradle 로 멀티프로젝트 구현 참고 : https://willbesoon.tistory.com/96
 ```
+
+
 
 ## 아래는 READ.md 샘플입니다.
 
