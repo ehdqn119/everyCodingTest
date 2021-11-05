@@ -2,6 +2,8 @@
 
 코딩테스트를 대비한 공부 저장소입니다. 
 
+교재와 강의에 따라서 Gradle 멀티프로젝트로 프로젝트 환경을 구성했습니다.
+
 ```
 commit message Template : https://beomseok95.tistory.com/328
 ```
